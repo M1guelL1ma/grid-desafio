@@ -1,0 +1,57 @@
+.cabecalho {
+    background-color: darkgray;
+    height: 50px;
+    width: 100vw;
+    margin-bottom: 5px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-menu {
+    background-color: greenyellow;
+    color: #000000;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    background-color: cornflowerblue;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    font-size: 25px;
+}
+
+.barra-lateral {
+    background-color: crimson;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+    color: #000000;
+}
+
+.rodape {
+    background-color: darkgray;
+    height: 50px;
+    width: 100vw;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.pagina-centro {
+    display: grid;
+    grid-template-columns: 16% 68% 16%;
+    height: 100vh;
+    gap: 12px;
+}
